@@ -1,1 +1,17 @@
-@import '_base.css';
+@import "_basse.css"
+
+ .outer-grid{
+
+ display:grid;
+ grid-template-rows: 10vh auto 4vh;
+ justify-items: center;
+
+}
+#app-title{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f08064;
+    color: white;
+
