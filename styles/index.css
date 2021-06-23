@@ -1,17 +1,25 @@
-@import "_basse.css"
+@import "/styles/_base.css";
+@import "/styles/_layout.css";
 
- .outer-grid{
-
- display:grid;
- grid-template-rows: 10vh auto 4vh;
- justify-items: center;
-
+#app-title {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f08064;
+  color: white;
 }
-#app-title{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f08064;
-    color: white;
 
+main section.card {
+  border: 1px solid gray;
+  padding: 1rem;
+  position: relative;
+  margin-top: 1rem;
+}
+
+main section.card .bookmark-icon {
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  font-size: 2.5rem;
+}
